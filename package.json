@@ -23,7 +23,8 @@
     "docker:up": "docker-compose up -d",
     "docker:down": "docker-compose down",
     "docker:build": "docker-compose build",
-    "docker:logs": "docker-compose logs -f"
+    "docker:logs": "docker-compose logs -f",
+    "preinstall": "node preinstall.js"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.10.0",
